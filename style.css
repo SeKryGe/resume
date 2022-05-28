@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: rgb(248, 229, 167);
+}
+
+
+
+.avatar{
+    border-radius: 28px;
+    width: 200px;
+    box-shadow:4px 4px 14px rgba(0,0,0,25);
+}
+
+
+
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+
+
+
+.info{
+    margin-bottom: 20px;
+    padding: 5px;
+    display:flex;
+    position: relative;
+    
+}
+
+.info-medias{
+    height: 90px;
+    position: absolute;
+    bottom: 15px;
+    right: 1.5rem;
+    
+}
+
+.info p {
+    font-style: italic;
+    color: rgb(141, 141, 141);
+    font-size: 19px;
+    padding-left: 20px;
+    
+}
+
+
+.info h1 {
+    margin-left: 10px;
+}
+
+
+
+.card {
+    padding: 10px;
+    margin-bottom: 12px;
+    width: 720px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px;
+}
+
+
+.hobbys{
+    background: rgb(236, 248, 191);
+}
+
+.expa{
+    background: rgb(247, 215, 145)
+}
+
+.expa td {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.expa td:nth-child(2), .expa td:nth-child(3) {
+    color: gray;
+}
+
+.contact{
+    background: rgb(231, 219, 253);
+    
+}
+.contact h3{
+    text-align: center;
+}
+
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px;
+    color: #000;
+    padding: 15px 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    background-image: linear-gradient(to top, rgb(108, 186, 250),pink);
+    color:white;
+    text-shadow: -0   -1px 0   #000000,
+    0   -1px 0   #000000,
+   -0    1px 0   #000000,
+    0    1px 0   #000000,
+   -1px -0   0   #000000,
+    1px -0   0   #000000,
+   -1px  0   0   #000000,
+    1px  0   0   #000000,
+   -1px -1px 0   #000000,
+    1px -1px 0   #000000,
+   -1px  1px 0   #000000,
+    1px  1px 0   #000000,
+   -1px -1px 0   #000000,
+    1px -1px 0   #000000,
+   -1px  1px 0   #000000,
+    1px  1px 0   #000000;
+   
+    border-radius: 5px;
+    
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-instagram {
+	background: -webkit-gradient(linear, left top, left bottom, from(#7623be), to(#df983e));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.medias h4{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 650px) {
+    .container {
+        font-size: medium;
+    }
+
+    .info {
+        text-align: center;
+        display:block;
+    }
+
+    .info-medias{
+        display: block;
+        position:static;
+    }
+
+    .card{
+        width: 560px;
+        
+    }
+}
