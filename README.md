@@ -1,3 +1,3 @@
-# Hi this'is my first web-resume
+# Hi this is my first web-resume
 
 ##[My resume](https://sekryge.github.io/resume/)
